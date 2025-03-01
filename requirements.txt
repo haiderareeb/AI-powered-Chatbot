@@ -1,0 +1,11 @@
+transformers
+torch
+nltk
+flask
+requests
+beautifulsoup4
+newspaper3k
+lxml
+lxml_html_clean
+json
+flask
