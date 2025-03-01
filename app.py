@@ -4,7 +4,7 @@ qa_pipeline = pipeline('question-answering',model='deepset/roberta-base-squad2')
 
 import json
 
-with open(r'dataset\cs_data.json','r',encoding="utf-8") as f:
+with open(r'dataset/cs_data.json','r',encoding="utf-8") as f:
     knowledge_base = json.load(f)
 
 cybersecurity_context = " ".join(knowledge_base.values())
