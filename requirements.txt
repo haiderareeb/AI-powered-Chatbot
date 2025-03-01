@@ -1,7 +1,7 @@
 transformers
 torch
 nltk
-flask
+streamlit
 requests
 beautifulsoup4
 newspaper3k
