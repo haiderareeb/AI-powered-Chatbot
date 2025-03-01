@@ -7,5 +7,3 @@ beautifulsoup4
 newspaper3k
 lxml
 lxml-html-clean
-nest_asyncio
-asyncio

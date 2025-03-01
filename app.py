@@ -1,7 +1,3 @@
-import asyncio
-import nest_asyncio
-nest_asyncio.apply()    
-
 from transformers import pipeline
 
 qa_pipeline = pipeline('question-answering',model='deepset/roberta-base-squad2')
